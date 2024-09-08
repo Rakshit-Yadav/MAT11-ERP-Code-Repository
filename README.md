@@ -2,7 +2,7 @@
 
 ## Dynamic Beta Estimation Using Kalman Filter and Linear Regression Models
 
-This repository contains the code and materials for estimating dynamic beta under the Capital Asset Pricing Model (CAPM) framework using two different models: a traditional Linear Regression model (Model A) and a Kalman Filter model (Model B). The project focuses on analyzing two distinct time periods, 2015-2019 and 2020-2023, to evaluate the performance of both models under different market conditions—stable and volatile.
+This repository contains the code and materials for estimating dynamic beta under the Capital Asset Pricing Model (CAPM) framework using two different models: a traditional Linear Regression model (Model A) and a Kalman Filter model (Model B). The project focuses on analyzing two distinct time periods, 2015-2019 and 2020-2023, to evaluate the performance of both models under different market conditions—stable and volatile. It should also be noted that I worked on a macOS local machines and some commands specified in this readme can be macOS specific. A thorough effort has been made to ensure alternate commands are provided, but in the case a command doesn't work, the reader is encouraged to search that command in browser and get more info on it for their own specific operating system.
 
 ## Environment Setup
 
@@ -26,7 +26,7 @@ conda create -n dynamic_beta_env python=3.11.4
 conda activate dynamic_beta_env
 ```
 ### Step 2: Install the Required Packages
-Once the environment is activated, install the following specific package versions to ensure complete reproducibility. It should be noted that the commands should be ran individually in order to NOT have dependency issues and conflicts.
+- Once the environment is activated, install the following specific package versions to ensure complete reproducibility. It should be noted that the commands should be ran individually in order to NOT have dependency issues and conflicts.
 
 ```bash
 pip install yfinance==0.2.41
@@ -37,8 +37,26 @@ pip install seaborn==0.12.2
 pip install scipy==1.10.1
 pip install plotly==5.9.0
 pip install statsmodels==0.14.0
+pip install notebook==6.5.4
 ```
-### Step 3: Launch Jupyter Notebook
+- For Git installation
+    - For windows and Linux , visit [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) link
+    - For macos, run the command
+        - ```bash
+          git --version
+          ```
+
+
+### Step 3: Clone the Repository 
+To get the project files, clone the repository to your local machine
+```bash
+git clone https://github.com/Rakshit-Yadav/MAT11-ERP-Code-Repository
+
+# navigate into the project folder
+cd MAT11-ERP-Code-Repository
+```
+
+### Step 4: Launch Jupyter Notebook
 To run the project’s Jupyter notebooks, execute the following command to launch the Jupyter server:
 
 ```bash
