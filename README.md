@@ -37,7 +37,6 @@ pip install seaborn==0.12.2
 pip install scipy==1.10.1
 pip install plotly==5.9.0
 pip install statsmodels==0.14.0
-pip install notebook==6.5.4
 ```
 - For Git installation
     - For windows and Linux , visit [this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) link
@@ -45,7 +44,14 @@ pip install notebook==6.5.4
         - ```bash
           git --version
           ```
+- For Jupyter Notebook Installation
+    - ```bash
+      # Install Jupyter Notebook and all necessary dependencies
+        pip install jupyter notebook jupyterlab jupyter-server jupyter-client
 
+      # Install ipykernel, which allows Jupyter to run Python kernels
+        pip install ipykernel
+      ```
 
 ### Step 3: Clone the Repository 
 To get the project files, clone the repository to your local machine
