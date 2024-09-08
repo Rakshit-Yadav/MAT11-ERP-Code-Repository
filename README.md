@@ -117,4 +117,4 @@ KF-Model-(year_range).ipynb:
 - The project is built using daily returns data from Yahoo Finance, making it subject to data availability. The results you reproduce may vary slightly if new data has been added to the Yahoo Finance database since this project was last run.
 
 
-This project accompanies a larger research project on the estimation of dynamic beta in financial markets using state-space models.
+This project accompanies a larger research project report on the estimation of dynamic beta in financial markets using state-space models, which is submitted separately to the University of Manchester.
