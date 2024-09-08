@@ -6,7 +6,7 @@ This repository contains the code and materials for estimating dynamic beta unde
 
 ## Environment Setup
 
-To achieve reproducibility, it’s important to use the exact versions of Python and the Python packages that were used during development. This guide assumes you're using Conda for environment management (a helpful guide can be found about this [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+To achieve reproducibility, it’s important to use the exact versions of Python and the Python packages that were used during development. This guide assumes you're using Conda for environment management (a helpful guide can be found about this [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html/).
 
 ### Step 1: Create and Activate the Conda Environment
 
