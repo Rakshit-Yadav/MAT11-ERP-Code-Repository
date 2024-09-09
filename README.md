@@ -34,7 +34,12 @@ cd MAT11-ERP-Code-Repository
 - Inside the folder, using environment.yml file:
 ```bash
 # Create a new conda environment with the given file which will load all packages and dependencies
-conda env create -f environment.yml
+
+# for windows 
+conda env create -f environment-windows.yml
+
+# for macOS
+conda env creat -f environment-macos.yml
 
 # Activate the environment (named dynamic_beta_env by default)
 conda activate dynamic_beta_env
