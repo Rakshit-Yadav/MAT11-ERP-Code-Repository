@@ -8,17 +8,27 @@ This repository contains the code and materials for estimating dynamic beta unde
 
 To achieve reproducibility, it’s important to use the exact versions of Python and the Python packages that were used during development. This guide assumes you're using Conda for environment management (a helpful guide can be found about this [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-### Step 1: Create and Activate the Conda Environment
+### Create a separate path directory
 
-In your terminal, run the following commands to create a virtual environment with Python 3.8 and the necessary packages:
-
+In your terminal, run the following commands to create a directory for saving everything inside it:
 ```bash
 # Create a new directory for the project
 mkdir dynamic-beta-estimation
 
 # Navigate into the directory
 cd dynamic-beta-estimation
+```
 
+### Clone the Repository 
+- To get the project files, clone the repository to your local machine
+```bash
+git clone https://github.com/Rakshit-Yadav/MAT11-ERP-Code-Repository
+
+# navigate into the project folder
+cd MAT11-ERP-Code-Repository
+```
+- Inside the folder, using environment.yml file:
+```bash
 # Create a new conda environment with the given file which will load all packages and dependencies
 conda env create -f environment.yml
 
@@ -26,16 +36,7 @@ conda env create -f environment.yml
 conda activate dynamic_beta_env
 ```
 
-### Step 3: Clone the Repository 
-To get the project files, clone the repository to your local machine
-```bash
-git clone https://github.com/Rakshit-Yadav/MAT11-ERP-Code-Repository
-
-# navigate into the project folder
-cd MAT11-ERP-Code-Repository
-```
-
-### Step 4: Launch Jupyter Notebook
+### Launch Jupyter Notebook
 To run the project’s Jupyter notebooks, execute the following command to launch the Jupyter server:
 
 ```bash
@@ -45,7 +46,10 @@ python -m ipykernel install --user --name dynamic_beta_env --display-name "repo-
 # run jupyter notebook
 jupyter notebook
 ```
-This will open a browser window where you can navigate to the folder containing the notebooks. Please choose the ipykernel made named as "repo-env" from the dropdrow on the jupyter notebook interface.
+This will open a browser window where you can navigate to the folder containing the notebooks. Please choose the ipykernel made named as "repo-env" from the dropdrow on the jupyter notebook interface. Example video is below. This should be done for all the files before running them.
+
+https://github.com/user-attachments/assets/5873544e-3471-4e07-86be-d94d3fbd2bb3
+
 
 ## Project Structure
 The project is structured into two main folders, each corresponding to a different time period for the analysis:
