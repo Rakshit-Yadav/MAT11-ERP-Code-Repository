@@ -2,11 +2,15 @@
 
 ## Dynamic Beta Estimation Using Kalman Filter and Linear Regression Models
 
-This repository contains the code and materials for estimating dynamic beta under the Capital Asset Pricing Model (CAPM) framework using two different models: a traditional Linear Regression model (Model A) and a Kalman Filter model (Model B). The project focuses on analyzing two distinct time periods, 2015-2019 and 2020-2023, to evaluate the performance of both models under different market conditions—stable and volatile. It should also be noted that I worked on a macOS local machines and some commands specified in this readme can be macOS specific. A thorough effort has been made to ensure alternate commands are provided, but in the case a command doesn't work, the reader is encouraged to search that command in browser and get more info on it for their own specific operating system.
+This repository contains the code and materials for estimating dynamic beta under the Capital Asset Pricing Model (CAPM) framework using two different models: a traditional Linear Regression model (Model A) and a Kalman Filter model (Model B). The project focuses on analyzing two distinct time periods, 2015-2019 and 2020-2023, to evaluate the performance of both models under different market conditions—stable and volatile. It should also be noted that I worked on a macOS local machines and some commands specified in this readme can be macOS specific. A thorough effort has been made to ensure alternate commands are provided, but in the case a command doesn't work, the reader is encouraged to search that command and get more info on it for their own specific operating system.
 
 ## Environment Setup
 
-To achieve reproducibility, it’s important to use the exact versions of Python and the Python packages that were used during development. This guide assumes you're using Conda for environment management (a helpful guide can be found about this [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+To achieve reproducibility, it’s important to use the exact versions of Python and the Python packages that were used during development. This guide assumes you're using Conda for environment management (a helpful guide can be found about this [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Once you've installed conda, if you've installed it a specific directory, navigate there, or if you've installed for all users, conda should be recognised as a global command, this can be checked by running
+```bash
+conda
+```
+on the terminal. After this is done, the reader can continue with the next steps.
 
 ### Create a separate path directory
 
